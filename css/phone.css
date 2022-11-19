@@ -1,0 +1,93 @@
+/* mobile m kesi dekhay gi ye website */
+
+
+/* navigation */
+#navbar{
+flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+
+/* home */
+#home{
+    height: 240px;
+    padding: 3px 33px;
+
+}
+#home::before{
+    height: 400px;
+
+}
+
+#home p{
+    font-size: 15px;
+}
+
+
+/* services */
+
+#services {
+    display: flex;
+    flex-direction: column;
+}
+
+#services .box{
+    padding: 14px;
+    margin: 7px 0px;
+    margin-bottom: 15px;
+}
+#services .box img{
+    height: 114px;
+    /* margin: 2px 15px; */
+}
+
+/* client */
+#clients{
+    /* overflow: hidden; */
+    /* do  flex wrap instead */
+    flex-wrap: wrap
+
+}
+
+#clients img{
+    width: 64px;
+    /* padding: top-bottom , left-right */
+    padding: 6px;
+    height: auto;
+}
+
+
+/* contact */
+#contact-box form{
+    width: 80%;
+    /* or */
+    width: 296px;
+}
+
+
+/* footer */
+footer{
+
+}
+
+
+/* utility classes  */
+.h-primary{
+
+    font-size: 25px;
+
+}
+
+
+.btn{
+    font-size: 15px;
+    padding: 2px 9px;
+}
+
+
+
